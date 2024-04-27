@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-image: url(https://emeritus.org/in/wp-content/uploads/sites/3/2023/02/pexels-myburgh-roux-1102797-1024x683.jpg.optimal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    height: 500px;
+    width: 500px;
+    padding: 30px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 25%;
+    right: 350px;
+    border-radius: 50px;
+    box-shadow: -6px -6px 20px transparent;
+}
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.lgn{
+    font-family: Arial Black;
+    color: rgb(237, 239, 247);
+}
+.lgnbtn{
+    border: none;
+    background-color: royalblue;
+    height: 70px;
+    border-radius: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: Arial Black;
+}
